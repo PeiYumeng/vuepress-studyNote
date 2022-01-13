@@ -13,13 +13,26 @@ module.exports = {
       logo: './logo.png',
     },
     nav:[ // 导航栏配置
-      {text: '前端基础', link: '/accumulate/' },
-      {text: '算法题库', link: '/algorithm/'},
-      {text: '微博', link: 'https://baidu.com'}      
+      // {text: '前端基础', link: '/accumulate/' },
+      // {text: '算法题库', link: '/algorithm/'},
+      // {text: '微博', link: 'https://baidu.com'}      
     ],
     sidebar: 'auto', // 侧边栏配置
     sidebarDepth: 2, // 侧边栏显示2级
     sidebar: [
+      {
+        title: 'JS', 
+        children:[
+          {
+            title: 'JS基础', 
+            path: '../JS/基础知识.md',
+          },
+          {
+            title: '异步', 
+            path: '../JS/异步.md',
+          },
+        ]
+      },
       {
         title: 'React', 
         // path: '../NodeJs/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
