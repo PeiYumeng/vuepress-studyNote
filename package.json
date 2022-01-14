@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^1.8.3"
+  },
+  "dependencies": {
+    "vue-loader": "^15.9.8"
   }
 }

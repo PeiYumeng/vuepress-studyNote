@@ -31,6 +31,23 @@ module.exports = {
             title: '异步', 
             path: '../JS/异步.md',
           },
+          {
+            title: '常用方法', 
+            path: '../JS/常用方法.md',
+          },
+        ]
+      },
+      {
+        title: '算法', 
+        children:[
+          {
+            title: '动态规划', 
+            path: '../算法/动态规划.md',
+          },
+          {
+            title: '字符串', 
+            path: '../算法/字符串.md',
+          },
         ]
       },
       {
@@ -123,11 +140,6 @@ module.exports = {
           },
         ]
       },
-      {
-        title: 'Group 2',
-        children: [ /* ... */ ],
-        initialOpenGroupIndex: -1 // 可选的, 默认值是 0
-      }
     ] 
   }
 }
