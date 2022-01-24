@@ -41,12 +41,16 @@ module.exports = {
         title: '算法', 
         children:[
           {
+            title: '字符串', 
+            path: '../算法/字符串.md',
+          },
+          {
             title: '动态规划', 
             path: '../算法/动态规划.md',
           },
           {
-            title: '字符串', 
-            path: '../算法/字符串.md',
+            title: 'bfs', 
+            path: '../算法/最短路径.md',
           },
         ]
       },
