@@ -24,16 +24,12 @@ module.exports = {
         title: 'JS', 
         children:[
           {
-            title: 'JS基础', 
+            title: '基础', 
             path: '../JS/基础知识.md',
           },
           {
-            title: '异步', 
-            path: '../JS/异步.md',
-          },
-          {
-            title: '常用方法', 
-            path: '../JS/常用方法.md',
+            title: '常见方法', 
+            path: '../JS/常见方法.md',
           },
         ]
       },
