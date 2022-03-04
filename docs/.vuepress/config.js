@@ -31,6 +31,10 @@ module.exports = {
             title: '常见方法', 
             path: '../JS/常见方法.md',
           },
+          {
+            title: 'JS-Web', 
+            path: '../JS/JS-Web-API.md',
+          },
         ]
       },
       {
