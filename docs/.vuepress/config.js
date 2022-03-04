@@ -38,6 +38,14 @@ module.exports = {
         ]
       },
       {
+        title: 'Webpack', 
+        path: '../Webpack.md',
+      },
+      {
+        title: '网络原理', 
+        path: '../网络原理.md',
+      },
+      {
         title: '算法', 
         children:[
           {
@@ -85,36 +93,24 @@ module.exports = {
         // sidebarDepth: 1,    // 可选的, 默认值是 1
         children:[
           {
-            title: 'JSX基本使用', 
-            path: '../React/ch01-JSX基本使用.md',
+            title: '基本使用', 
+            path: '../React/基本使用.md',
           },
           {
-            title: '事件', 
-            path: '../React/ch02-事件.md',
-          },
-          {
-            title: '组件', 
-            path: '../React/ch04-组件.md',
-          },
-          {
-            title: 'setState', 
-            path: '../React/ch05-setState.md',
-          },
-          {
-            title: '生命周期', 
-            path: '../React/生命周期.md',
-          },
-          {
-            title: '高级特性', 
-            path: '../React/高级特性.md',
+            title: 'React事件', 
+            path: '../React/React事件.md',
           },
           {
             title: 'Redux', 
             path: '../React/Redux.md',
           },
           {
-            title: 'React-router', 
+            title: 'Router', 
             path: '../React/React-Router.md',
+          },
+          {
+            title: '高级特性', 
+            path: '../React/高级特性.md',
           },
         ]
       },

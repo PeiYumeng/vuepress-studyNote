@@ -11,3 +11,7 @@ let history = useHistory()
 histtory.push(‘/')
 懒加载
 ![q](./img/13.png)
+3. 传递参数的三种方法
+- search
+- match
+- state

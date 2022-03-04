@@ -54,15 +54,8 @@ clickHandler2 = () => {  //箭头函数的this指向上一层的this
         // 4. 和 DOM 事件不一样，和 Vue 事件也不一样
     }
 ``` 
-#### 【React17开始，事件就不再绑定到document上了】
+3. React事件
+**【React17开始，事件就不再绑定到document上了】**
 React16绑定到document（共用一个）；React17事件绑定到root组件（多个dom节点）；有利于多个react版本并存，例如微前端
 ![a](./img/2.png)
-3. 传递自定义参数
-定义参数之后，最后都会追加一个参数可以接受event
-``` javascript
-// 传递参数
-    clickHandler4(id, title, event) {
-        console.log(id, title)
-        console.log('event', event) // 最后追加一个参数，即可接收 event
-    }
-```
+React的事件不是原生事件，是合成事件，会通过事件代理收束事件影响范围     
