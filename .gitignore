@@ -1,2 +1,3 @@
 node_modules/
-doce/每日计划/
+docs/每日计划/
+docs/.vuepress/dist/
