@@ -28,8 +28,8 @@ module.exports = {
             path: '../JS/基础知识.md',
           },
           {
-            title: '常见方法', 
-            path: '../JS/常见方法.md',
+            title: '常用方法', 
+            path: '../JS/常用方法.md',
           },
           {
             title: 'JS-Web', 
@@ -45,12 +45,36 @@ module.exports = {
             path: '../算法/字符串.md',
           },
           {
+            title: '数组', 
+            path: '../算法/数组.md',
+          },
+          {
+            title: '链表', 
+            path: '../算法/链表.md',
+          },
+          {
+            title: '栈', 
+            path: '../算法/栈.md',
+          },
+          {
             title: '动态规划', 
             path: '../算法/动态规划.md',
           },
           {
-            title: 'bfs', 
+            title: '排序', 
+            path: '../算法/排序.md',
+          },
+          {
+            title: '最短路径', 
             path: '../算法/最短路径.md',
+          },
+          {
+            title: '广度优先', 
+            path: '../算法/广度优先.md',
+          },
+          {
+            title: '牛客总结', 
+            path: '../算法/牛客题库总结.md',
           },
         ]
       },
