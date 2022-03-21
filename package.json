@@ -11,10 +11,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.7",
     "@vuepress/plugin-google-analytics": "^1.9.7",
     "vuepress": "^1.8.3"
   },
   "dependencies": {
+    "core-js": "^3.21.1",
+    "element-ui": "^2.15.6",
+    "leancloud-storage": "^4.12.2",
+    "valine": "^1.4.16",
     "vue-loader": "^15.9.8"
   }
 }

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .container{
+    width:300px;
+    height:300px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: row;
+  }
+  .container div{
+    width:100px;
+    height:100px;
+    background-color: black;
+    border-radius: 50%;
+  }
+  /* 3 */
+  .container div:nth-child(2){
+    align-self: center;
+  }
+  .container div:nth-child(3){
+    align-self:flex-end;
+  }
+  /* 6 */
+  .container2{
+    width:300px;
+    height:300px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .container2 div{
+    width:100px;
+    height:100px;
+    background-color: black;
+    border-radius: 50%;
+    align-self: center;
+  }
+  /* 5 */
+  .container3{
+    width:300px;
+    height:300px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .container3 div{
+    width:300px;
+    height:100px;
+    display: flex;
+    flex-direction: row;
+  }
+  .container3 div div{
+    width:100px;
+    height:100px;
+    background-color: black;
+    border-radius: 50%;
+  }
+  .top{
+    justify-content: space-between;
+  }
+  .cen{
+    justify-content: center;
+  }
+  /* 4 */
+  .container4{
+    width:300px;
+    height:300px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .container4 .flor{
+    width:300px;
+    height:150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+  }
+  .flor div{
+    width:100px;
+    height:100px;
+    background-color: black;
+    border-radius: 50%;
+    align-self: center;
+  }
+</style>
+<body>
+  <h4>3</h4>
+  <div class="container">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <h4>6</h4>
+  <div class="container2">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <h4>5</h4>
+  <div class="container3">
+      <div class="top">
+        <div></div>
+        <div></div>
+      </div>
+      <div class="cen">
+        <div></div>
+      </div>
+      <div class="top">
+        <div></div>
+        <div></div>
+      </div>
+  </div>
+  <h4>4</h4>
+  <div class="container4">
+    <div class="flor">
+      <div></div>
+      <div></div>
+    </div>
+    <div class="flor">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</body>
+</html>

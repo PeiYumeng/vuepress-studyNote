@@ -49,6 +49,10 @@ module.exports = {
         title: '算法', 
         children:[
           {
+            title: '算法总结', 
+            path: '../算法/算法总结.md',
+          },
+          {
             title: '字符串', 
             path: '../算法/字符串.md',
           },
@@ -118,16 +122,20 @@ module.exports = {
         title: 'Vue', 
         children: [
           {
-            title: '基础概念', 
-            path: '../Vue/ch01.md',
-          },
-          {
-            title: '组件使用', 
-            path: '../Vue/组件使用.md',
+            title: '基础', 
+            path: '../Vue/基础.md',
           },
           {
             title: '高级特性', 
             path: '../Vue/高级特性.md',
+          },
+          {
+            title: '原理', 
+            path: '../Vue/原理.md',
+          },
+          {
+            title: 'Vue3', 
+            path: '../Vue/vue3.md',
           },
         ]
       },
@@ -166,4 +174,5 @@ module.exports = {
       },
     ] 
   },
+  plugins: ['@vuepress/back-to-top']
 }

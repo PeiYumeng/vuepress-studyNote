@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>样式</title>
+</head>
+<style>
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+  }
+  /* 初始样式 */
+  .switch input {display:none;}
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+  }
+  /* 滑块内部样式 */
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 45px;
+    left: 4px;
+    bottom: 4px;
+    top:4px;
+    background-color: white;
+    transition: .4s;
+  }
+  /* 点击之后背景色更改 */
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  input:checked + .slider:before {
+    /* -webkit-transform: translateX(45px);
+    -ms-transform: translateX(45px); */
+    transform: translateX(45px);
+  }
+
+  /* div方法 */
+  .container{
+    width:100px;
+    height:50px;
+    background-color: grey;
+    position: relative;
+  }
+  .point{
+    width:40px;
+    height:40px;
+    position: absolute;
+    top:50%;
+    margin-top:-20px;
+    margin-left:4px;
+    background-color: white;
+    transition: 0.4s;
+  }
+  .point:hover{
+    transform: translateX(40px);
+  }
+</style>
+<body>
+  <h4>使用伪类+html表单</h4>
+  <label class="switch">
+    <input type="checkbox">
+    <div class="slider"></div>
+  </label>
+  <h4>使用div做开关</h4>
+  <div class="container">
+    <div class="point"></div>
+  </div>
+</body>
+</html>
